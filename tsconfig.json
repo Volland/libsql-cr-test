@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "isolatedModules": true,
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "module": "NodeNext",
+    "target": "ESNext",
+    "emitDeclarationOnly": true,
+    "composite": true,
+    "allowImportingTsExtensions": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}
