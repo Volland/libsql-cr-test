@@ -12,6 +12,10 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
-  }
+    "emitDecoratorMetadata": true,
+    "outDir": "./dist",                      // Redirect output structure to the directory
+    "rootDir": "./src",         
+  },
+  "include": ["src/**/*"],                   // Include all files in the src directory
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }

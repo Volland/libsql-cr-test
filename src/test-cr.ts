@@ -1,4 +1,4 @@
-import { DataStoreService } from "./data-store-service"
+import { DataStoreService } from "./data-store-service.ts"
 
 async function main() {
 const datastore = new DataStoreService()
