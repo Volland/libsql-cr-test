@@ -10,7 +10,8 @@ const datastore = new DataStoreService()
       const tableResult = await datastore.query(
         `SELECT name FROM sqlite_master WHERE type='table'and  name in ('foo__crsql_clock', 'foo__crsql_pks');`
       )
-      console.log(tableResult.data.includes(['foo__crsql_clock']) ? "CR works " : "CR not works ")
+      console.log(tableResult)
+      //console.log(tableResult.data.includes('foo__crsql_clock') ? "CR works " : "CR not works ")
     }
 }
 main().then(() => console.log('done'))
