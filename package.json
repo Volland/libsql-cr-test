@@ -12,7 +12,7 @@
   "devDependencies": {
     "@types/node": "^20.14.9",
     "ts-node": "^10.9.2",
-    "libsql": "0.4.0-pre.7",
+    "libsql": "0.4.0",
     "@vlcn.io/crsqlite": "^0.16.3",
     "typescript": "^5.5.2"
   }
